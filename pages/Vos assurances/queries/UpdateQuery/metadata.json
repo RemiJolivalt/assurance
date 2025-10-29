@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_588a4ef9-d1bd-40d1-8695-66cc2ef50f9c",
-  "id": "Public.assurance_UpdateQuery",
+  "id": "Vos assurances_UpdateQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,8 +28,8 @@
       }
     ],
     "name": "UpdateQuery",
-    "pageId": "Public.assurance",
-    "runBehaviour": "MANUAL",
+    "pageId": "Vos assurances",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

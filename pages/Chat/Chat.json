@@ -1,6 +1,7 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_bcb0c637-fd31-4449-9487-852a616fbd5d",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Chat",
+    "slug": "chat"
   }
 }

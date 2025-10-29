@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_81089238-9598-486c-8037-34c4a5f2d49a",
-  "id": "Public.assurance_InsertQuery",
+  "id": "Vos assurances_InsertQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "InsertQuery",
-    "pageId": "Public.assurance",
+    "pageId": "Vos assurances",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

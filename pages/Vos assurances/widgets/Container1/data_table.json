@@ -1,9 +1,11 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": true,
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "bottomRow": 85,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -35,7 +37,8 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1761765700596,
+  "columnUpdatedAt": 1761766450635,
+  "compactMode": "SHORT",
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
   "delimiter": ",",
@@ -79,9 +82,6 @@
       "key": "accentColor"
     },
     {
-      "key": "borderRadius"
-    },
-    {
       "key": "boxShadow"
     },
     {
@@ -104,6 +104,30 @@
     },
     {
       "key": "primaryColumns.objet.computedValue"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn1.cellBackground"
+    },
+    {
+      "key": "primaryColumns.name.cellBackground"
+    },
+    {
+      "key": "primaryColumns.assureur.cellBackground"
+    },
+    {
+      "key": "primaryColumns.type.cellBackground"
+    },
+    {
+      "key": "primaryColumns.formule.cellBackground"
+    },
+    {
+      "key": "primaryColumns.option.cellBackground"
+    },
+    {
+      "key": "primaryColumns.objet.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [
@@ -135,7 +159,7 @@
   "iconSVG": "/static/media/icon.db8a9cbd.svg",
   "isLoading": false,
   "isSortable": true,
-  "isVisible": "true",
+  "isVisible": true,
   "isVisibleDownload": true,
   "isVisibleFilters": true,
   "isVisiblePagination": true,
@@ -143,7 +167,7 @@
   "key": "zba5qel0au",
   "label": "Data",
   "labelTextSize": "0.875rem",
-  "leftColumn": 0,
+  "leftColumn": 24,
   "onPageChange": "{{SelectQuery.run()}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
@@ -156,7 +180,7 @@
       "alias": "assureur",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"assureur\"])) : assureur })()}}",
       "currencyCode": "USD",
@@ -193,6 +217,7 @@
       "buttonLabel": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( 'Delete'))}}",
       "buttonLabelColor": "#FFFFFF",
       "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "button",
       "computedValue": "",
       "enableFilter": true,
@@ -214,7 +239,7 @@
       "alias": "formule",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"formule\"])) : formule })()}}",
       "currencyCode": "USD",
@@ -248,7 +273,7 @@
       "alias": "name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"name\"])) : name })()}}",
       "currencyCode": "USD",
@@ -282,7 +307,7 @@
       "alias": "objet",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"objet\"])) : objet })()}}",
       "currencyCode": "USD",
@@ -316,7 +341,7 @@
       "alias": "option",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"option\"])) : option })()}}",
       "currencyCode": "USD",
@@ -350,7 +375,7 @@
       "alias": "type",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = data_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"type\"])) : type })()}}",
       "currencyCode": "USD",

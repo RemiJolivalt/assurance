@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_db8ed22e-995c-49f3-978c-ccf2e42a9aa9",
-  "id": "Public.assurance_SelectQuery",
+  "id": "Vos assurances_SelectQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "SelectQuery",
-    "pageId": "Public.assurance",
+    "pageId": "Vos assurances",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": true
   }

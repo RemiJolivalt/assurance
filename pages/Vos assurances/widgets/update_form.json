@@ -192,6 +192,9 @@
     },
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicTriggerPathList": [
@@ -388,7 +391,7 @@
   },
   "scrollContents": true,
   "showReset": true,
-  "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"__primaryKey__\")}}",
+  "sourceData": "{{UpdateQuery.data}}",
   "submitButtonLabel": "Update",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

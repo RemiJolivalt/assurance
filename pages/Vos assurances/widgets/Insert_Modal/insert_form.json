@@ -3,7 +3,7 @@
   "autoGenerateForm": true,
   "backgroundColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 56,
   "boxShadow": "none",
   "childStylesheet": {
     "ARRAY": {
@@ -167,7 +167,7 @@
       "key": "schema.__root_schema__.children.objet.accentColor"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
@@ -189,10 +189,12 @@
   "isVisible": "true",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 0,
+  "leftColumn": 8,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{InsertQuery.run(\n\t() => SelectQuery.run()\n\t\t\t\t\t.then(() => closeModal('Insert_Modal')), \n\t(error) => showAlert(`Error while inserting resource!\\n ${error}`,'error'))\n}}",
+  "originalBottomRow": 56,
+  "originalTopRow": 0,
   "parentColumnSpace": 8.125,
   "parentId": "9rhv3ioohq",
   "parentRowSpace": 10,
@@ -272,7 +274,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Name",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "name",
@@ -367,16 +369,17 @@
     }
   },
   "scrollContents": true,
+  "shouldScrollContents": true,
   "showReset": true,
   "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"__primaryKey__\")}}",
-  "submitButtonLabel": "Submit",
+  "submitButtonLabel": "Ajouter",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Insert Row",
+  "title": "Nouvelle assurance",
   "topRow": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,

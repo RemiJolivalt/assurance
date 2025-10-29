@@ -2,11 +2,7 @@
   "borderRadius": "0px",
   "bottomRow": 5,
   "boxShadow": "none",
-  "dynamicBindingPathList": [
-    {
-      "key": "fontFamily"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
@@ -14,8 +10,8 @@
     }
   ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.5rem",
+  "fontFamily": "Poppins",
+  "fontSize": "1.3rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": "true",
@@ -28,7 +24,7 @@
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
   "rightColumn": 54,
-  "text": "public_assurance Data",
+  "text": "Vos assurances",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
