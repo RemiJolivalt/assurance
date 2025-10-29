@@ -29,7 +29,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "bag",
+  "icon": "diamond",
   "pages": [
     {
       "id": "Chat",
@@ -37,6 +37,10 @@
     },
     {
       "id": "Vos assurances",
+      "isDefault": false
+    },
+    {
+      "id": "Accueil",
       "isDefault": true
     }
   ],
