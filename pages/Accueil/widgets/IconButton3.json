@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "bottomRow": 35,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -13,35 +13,28 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "iconName": "chat",
+  "dynamicTriggerPathList": [],
+  "iconName": "euro",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "haxjmdvb7j",
+  "key": "svt8gyje8x",
   "leftColumn": 3,
   "minWidth": 50,
-  "mobileBottomRow": 24,
+  "mobileBottomRow": 35,
   "mobileLeftColumn": 3,
   "mobileRightColumn": 7,
-  "mobileTopRow": 20,
+  "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Chat', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 25,
-  "originalTopRow": 21,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 7,
-  "topRow": 25,
+  "topRow": 31,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "cx096ht0q1",
-  "widgetName": "IconButton1"
+  "widgetId": "y5y0rc93xy",
+  "widgetName": "IconButton3"
 }

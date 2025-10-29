@@ -1,13 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 7,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
@@ -15,13 +12,13 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontFamily": "Poppins",
   "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "uh64nd8vy4",
-  "leftColumn": 12,
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,18 +27,20 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "originalBottomRow": 7,
+  "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
+  "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "CLARIO ! ",
-  "textAlign": "LEFT",
+  "text": "CLARIO!\nLa transparence sur vos assurances & garanties",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
