@@ -5,9 +5,9 @@
   },
   "applicationDetail": {
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoOnly",
+      "logoConfiguration": "logoAndApplicationTitle",
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
@@ -22,13 +22,14 @@
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
-  "color": "#FFEBFB",
+  "color": "#C7F3E3",
   "embedSetting": {
     "height": "720px",
     "showNavigationBar": true,
     "width": "1024px"
   },
   "evaluationVersion": 2,
+  "icon": "bag",
   "pages": [
     {
       "id": "Chat",
@@ -44,9 +45,9 @@
   },
   "unpublishedApplicationDetail": {
     "navigationSetting": {
-      "colorStyle": "theme",
+      "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoOnly",
+      "logoConfiguration": "logoAndApplicationTitle",
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
