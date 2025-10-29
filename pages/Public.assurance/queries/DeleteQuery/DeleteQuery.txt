@@ -1,0 +1,2 @@
+DELETE FROM public."assurance"
+  WHERE "assureur" = {{data_table.triggeredRow.assureur}};

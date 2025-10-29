@@ -1,0 +1,14 @@
+INSERT INTO public."assurance" (
+	"assureur",
+	"name",
+	"type",
+	"formule",
+	"option",
+	"objet")
+VALUES (
+	'{{insert_form.formData.assureur}}',
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.type}}',
+	'{{insert_form.formData.formule}}',
+	'{{insert_form.formData.option}}',
+	'{{insert_form.formData.objet}}');

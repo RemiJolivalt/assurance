@@ -1,0 +1,7 @@
+UPDATE public."assurance" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"type" = '{{update_form.fieldState.type.isVisible ? update_form.formData.type : update_form.sourceData.type}}',
+    "formule" = '{{update_form.fieldState.formule.isVisible ? update_form.formData.formule : update_form.sourceData.formule}}',
+		"option" = '{{update_form.fieldState.option.isVisible ? update_form.formData.option : update_form.sourceData.option}}',
+		"objet" = '{{update_form.fieldState.objet.isVisible ? update_form.formData.objet : update_form.sourceData.objet}}'
+WHERE "assureur" = {{data_table.selectedRow.assureur}};
