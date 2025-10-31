@@ -30,7 +30,7 @@
   "mobileRightColumn": 7,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Page1', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Chat', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 38,
   "originalTopRow": 34,
   "parentColumnSpace": 17.9375,

@@ -1,22 +1,24 @@
 {
-  "gitSyncId": "6900e9bcee040c63f47206df_c5e6980d-85d8-4ade-aec8-83f7c5f51814",
+  "gitSyncId": "6900e9bcee040c63f47206df_bcb0c637-fd31-4449-9487-852a616fbd5d",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 560,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 540,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 52,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -25,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Chat_Old",
+    "slug": "chat-old"
   }
 }

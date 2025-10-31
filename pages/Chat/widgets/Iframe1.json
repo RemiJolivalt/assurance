@@ -30,7 +30,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 58,
-  "source": "https://remijolivalt.github.io/assurance/Chat.html",
+  "source": "http://52.143.159.51:8080/chat.html",
   "topRow": 4,
   "type": "IFRAME_WIDGET",
   "version": 1,

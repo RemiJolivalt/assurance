@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_ce36e082-d63c-4a50-813d-69764da55a08",
-  "id": "Chat_Api2",
+  "id": "Chat_Old_Api2",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -43,7 +43,7 @@
       }
     ],
     "name": "Api2",
-    "pageId": "Chat",
+    "pageId": "Chat_Old",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

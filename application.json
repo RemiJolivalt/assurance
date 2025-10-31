@@ -32,7 +32,7 @@
   "icon": "diamond",
   "pages": [
     {
-      "id": "Chat",
+      "id": "Chat_Old",
       "isDefault": false
     },
     {
@@ -44,7 +44,7 @@
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "Chat",
       "isDefault": false
     }
   ],

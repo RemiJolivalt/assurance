@@ -1,9 +1,9 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_890597af-ee43-4f6e-a56f-06de31a3c73f",
-  "id": "Chat_Chatbotjs",
+  "id": "Chat_Old_Chatbotjs",
   "unpublishedCollection": {
     "name": "Chatbotjs",
-    "pageId": "Chat",
+    "pageId": "Chat_Old",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": []
