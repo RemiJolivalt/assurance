@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 23,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,20 +30,20 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 16,
-  "originalTopRow": 9,
+  "originalBottomRow": 23,
+  "originalTopRow": 12,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
+  "rightColumn": 60,
   "shouldTruncate": false,
   "text": "Avec CLARIO!, posez vos questions sur vos couvertures d'assurance et obtenez des réponses claires. Détectez les doublons, identifiez les manques et reprenez le contrôle de vos assurances et garanties.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 9,
+  "topRow": 12,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
