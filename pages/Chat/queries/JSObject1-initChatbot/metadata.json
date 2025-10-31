@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6900e9bcee040c63f47206df_650d791d-0626-4889-bad2-1607e16a6609",
-  "id": "Chat_JSObject1.myFun1",
+  "gitSyncId": "6900e9bcee040c63f47206df_0c933598-5ca4-4414-84e4-756ae63aeff1",
+  "id": "Chat_JSObject1.initChatbot",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -10,7 +10,6 @@
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
-    "clientSideExecution": true,
     "collectionId": "Chat_JSObject1",
     "confirmBeforeExecute": false,
     "datasource": {
@@ -23,8 +22,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "JSObject1.myFun1",
-    "name": "myFun1",
+    "fullyQualifiedName": "JSObject1.initChatbot",
+    "name": "initChatbot",
     "pageId": "Chat",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
