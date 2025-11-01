@@ -29,7 +29,7 @@
     ],
     "name": "UpdateQuery",
     "pageId": "Vos assurances",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
