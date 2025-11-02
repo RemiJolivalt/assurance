@@ -1,6 +1,0 @@
-UPDATE public."view_test" SET
-		"id_garantie" = '{{update_form.fieldState.id_garantie.isVisible ? update_form.formData.id_garantie : update_form.sourceData.id_garantie}}',
-		"detail" = '{{update_form.fieldState.detail.isVisible ? update_form.formData.detail : update_form.sourceData.detail}}',
-    "actif" = '{{update_form.fieldState.actif.isVisible ? update_form.formData.actif : update_form.sourceData.actif}}',
-		"maj" = '{{update_form.fieldState.maj.isVisible ? update_form.formData.maj : update_form.sourceData.maj}}'
-WHERE "id_utilisateur" = {{data_table.selectedRow.id_utilisateur}};

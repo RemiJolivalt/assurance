@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 48,
+  "bottomRow": 46,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -50,7 +50,7 @@
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "Voiture ou logement associé, personne concernée ...",
-  "topRow": 38,
+  "topRow": 36,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "jlp2lrn1g5",
