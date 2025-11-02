@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.utilisateurs_ref where id_utilisateur ilike '%{{Table1.searchText}}%';

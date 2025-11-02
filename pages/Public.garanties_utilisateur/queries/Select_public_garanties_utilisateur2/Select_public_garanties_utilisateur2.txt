@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.garanties_utilisateur
+WHERE
+  "id_garantie" ilike '%{{Table3.searchText}}%'
+ORDER BY
+  "{{Table3.sortOrder.column || 'id_garantie'}}" {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table3.pageSize}}
+OFFSET
+  {{Table3.pageOffset}}

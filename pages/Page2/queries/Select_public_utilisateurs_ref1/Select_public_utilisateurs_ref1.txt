@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.utilisateurs_ref
+WHERE
+  "id_utilisateur" ilike '%{{Table1.searchText}}%'
+ORDER BY
+  "{{Table1.sortOrder.column || 'id_utilisateur'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

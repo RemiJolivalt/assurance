@@ -1,0 +1,1 @@
+UPDATE public.garanties_utilisateur SET "id_utilisateur"= '{{Table3.updatedRow.id_utilisateur}}', "detail"= '{{Table3.updatedRow.detail}}', "actif"= '{{Table3.updatedRow.actif}}', "maj"= '{{Table3.updatedRow.maj}}' WHERE "id_garantie"= {{Table3.updatedRow.id_garantie}};

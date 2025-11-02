@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "applicationDetail": {
     "navigationSetting": {
@@ -50,10 +50,26 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Public.garanties_utilisateur",
+      "isDefault": false
+    },
+    {
+      "id": "Public.view_test",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Public.utilisateurs_ref",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "unpublishedApplicationDetail": {
     "navigationSetting": {

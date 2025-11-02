@@ -1,0 +1,1 @@
+INSERT INTO public.garanties_utilisateur ("id_utilisateur","detail","actif","maj") VALUES ('{{(Table3.newRow || {}).id_utilisateur}}','{{(Table3.newRow || {}).detail}}','{{(Table3.newRow || {}).actif}}','{{(Table3.newRow || {}).maj}}')

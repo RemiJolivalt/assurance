@@ -1,0 +1,2 @@
+DELETE FROM public."view_test"
+  WHERE "id_utilisateur" = {{data_table.triggeredRow.id_utilisateur}};

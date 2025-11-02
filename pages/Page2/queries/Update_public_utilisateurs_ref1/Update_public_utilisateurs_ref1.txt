@@ -1,0 +1,1 @@
+UPDATE public.utilisateurs_ref SET "nom"= '{{Table1.updatedRow.nom}}', "prenom"= '{{Table1.updatedRow.prenom}}', "email"= '{{Table1.updatedRow.email}}' WHERE "id_utilisateur"= {{Table1.updatedRow.id_utilisateur}};

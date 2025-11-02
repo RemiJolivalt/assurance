@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6900e9bcee040c63f47206df_bea8fbb1-19ac-457f-95a8-7c07e312771a",
+  "id": "Public.garanties_utilisateur_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Public.garanties_utilisateur",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

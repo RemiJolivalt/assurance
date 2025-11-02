@@ -1,0 +1,1 @@
+INSERT INTO public.utilisateurs_ref ("nom","prenom","email") VALUES ('{{(Table1.newRow || {}).nom}}','{{(Table1.newRow || {}).prenom}}','{{(Table1.newRow || {}).email}}')
