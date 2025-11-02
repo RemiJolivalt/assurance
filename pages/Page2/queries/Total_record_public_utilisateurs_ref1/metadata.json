@@ -29,7 +29,7 @@
     ],
     "name": "Total_record_public_utilisateurs_ref1",
     "pageId": "Page2",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
