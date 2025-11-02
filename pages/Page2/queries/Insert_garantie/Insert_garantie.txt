@@ -1,0 +1,16 @@
+WITH garantie_id AS (
+  SELECT DISTINCT id_garantie
+  FROM garanties_ref
+  WHERE type = {{ Select1.selectedOptionValue }}
+    AND assureur = {{ Select2.selectedOptionValue }}
+    AND formule = {{ Select3.selectedOptionValue }}
+)
+
+INSERT INTO garanties_utilisateur (id_garantie, id_utilisateur, detail, actif, maj)
+SELECT 
+  id_garantie,
+  'US001',
+  {{ Input1.text }},
+  TRUE,
+  CURRENT_TIMESTAMP
+FROM garantie_id;
