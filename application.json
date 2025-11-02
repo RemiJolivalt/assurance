@@ -41,7 +41,7 @@
     },
     {
       "id": "Accueil",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Chat",
@@ -68,8 +68,8 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
-      "isDefault": false
+      "id": "welcome",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {

@@ -1,8 +1,7 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#2196f3",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 56,
+  "bottomRow": 51,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -12,45 +11,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "0.875rem",
-  "fontStyle": "BOLD",
+  "fontStyle": "ITALIC",
   "isLoading": false,
   "isVisible": true,
   "key": "ygqtxlscbv",
-  "leftColumn": 2,
+  "leftColumn": 29,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 56,
-  "mobileLeftColumn": 2,
-  "mobileRightColumn": 18,
-  "mobileTopRow": 52,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 46,
   "needsErrorInfo": false,
-  "originalBottomRow": 57,
-  "originalTopRow": 52,
+  "originalBottomRow": 51,
+  "originalTopRow": 46,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 59,
+  "rightColumn": 60,
   "shouldTruncate": false,
-  "text": "Pas de compte ? Inscrivez-vous",
-  "textAlign": "CENTER",
-  "textColor": "{{appsmith.theme.colors.backgroundColor}}",
-  "topRow": 52,
+  "text": "Mot de passe oublié ?",
+  "textAlign": "RIGHT",
+  "textColor": "#71717a",
+  "topRow": 47,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "vm2z7exk07",
-  "widgetName": "Text3"
+  "widgetId": "b46fihms8v",
+  "widgetName": "Text2"
 }
