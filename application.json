@@ -29,7 +29,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "diamond",
+  "icon": "open-new-tab",
   "pages": [
     {
       "id": "Chat_Old",
