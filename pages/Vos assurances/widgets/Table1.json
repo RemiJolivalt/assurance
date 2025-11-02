@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 26,
+  "bottomRow": 22,
   "boxShadow": "none",
   "cachedTableData": {},
   "canFreezeColumn": false,
@@ -37,12 +37,13 @@
     "formule",
     "option",
     "detail",
-    "actif",
-    "customColumn1"
+    "customColumn1",
+    "actif"
   ],
-  "columnUpdatedAt": 1762101890298,
+  "columnUpdatedAt": 1762102086170,
   "columnWidthMap": {
     "assureur": 105,
+    "detail": 84,
     "formule": 98,
     "option": 80
   },
@@ -113,7 +114,7 @@
   "isVisibleSearch": false,
   "key": "mol84f2tog",
   "label": "Data",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "minWidth": 450,
   "mobileBottomRow": 35,
   "mobileLeftColumn": 18,
@@ -188,7 +189,7 @@
       "width": 150
     },
     "customColumn1": {
-      "alias": "customColumn1",
+      "alias": "MaJ",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -214,7 +215,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "customColumn1",
+      "label": "MaJ",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{navigateTo('Nouvelle assurance', {}, 'SAME_WINDOW');}}",
@@ -322,7 +323,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
   "tableData": "{{List_assur_Auto.data}}",
