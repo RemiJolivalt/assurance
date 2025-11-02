@@ -40,7 +40,7 @@
       "isDefault": false
     },
     {
-      "id": "Accueil",
+      "id": "Homepage",
       "isDefault": false
     },
     {
@@ -64,7 +64,7 @@
       "isDefault": false
     },
     {
-      "id": "welcome",
+      "id": "Welcome",
       "isDefault": true
     }
   ],

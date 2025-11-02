@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Accueil",
-    "slug": "accueil"
+    "name": "Homepage",
+    "slug": "homepage"
   }
 }
