@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_0c537672-0ba9-4619-9760-3dda3feaec09",
-  "id": "Page2_DistinctAssureur",
+  "id": "Nouvelle assurance_DistinctAssureur",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "DistinctAssureur",
-    "pageId": "Page2",
+    "pageId": "Nouvelle assurance",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }

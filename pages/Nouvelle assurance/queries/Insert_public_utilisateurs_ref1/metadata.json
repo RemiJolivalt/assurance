@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6900e9bcee040c63f47206df_482811a6-5d28-48a1-8dfd-607d8b1ba8de",
-  "id": "Page2_DistinctFormule",
+  "gitSyncId": "6900e9bcee040c63f47206df_54bd7bdf-cfb8-48b5-9a6d-ad973c90b62c",
+  "id": "Nouvelle assurance_Insert_public_utilisateurs_ref1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT formule FROM public.garanties_ref where TYPE = {{Select1.selectedOptionValue}} and assureur = {{Select2.selectedOptionValue}};;",
+      "body": "INSERT INTO public.utilisateurs_ref (\"nom\",\"prenom\",\"email\") VALUES ('{{(Table1.newRow || {}).nom}}','{{(Table1.newRow || {}).prenom}}','{{(Table1.newRow || {}).email}}')",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "name": "DistinctFormule",
-    "pageId": "Page2",
-    "runBehaviour": "AUTOMATIC",
+    "name": "Insert_public_utilisateurs_ref1",
+    "pageId": "Nouvelle assurance",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

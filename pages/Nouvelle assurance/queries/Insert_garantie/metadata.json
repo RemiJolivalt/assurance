@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6900e9bcee040c63f47206df_4f408b99-7c99-4c40-8a58-abbc467327e2",
-  "id": "Page2_Insert_garantie",
+  "id": "Nouvelle assurance_Insert_garantie",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "Insert_garantie",
-    "pageId": "Page2",
+    "pageId": "Nouvelle assurance",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

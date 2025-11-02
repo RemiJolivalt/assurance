@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "6900e9bcee040c63f47206df_9b24e2ab-3892-496b-89c0-afa51b34e4d5",
-  "id": "Page2_Select_public_utilisateurs_ref1",
+  "gitSyncId": "6900e9bcee040c63f47206df_af1fa7ab-7bd9-4b54-aa05-5fec5a25c968",
+  "id": "Nouvelle assurance_DistinctOption",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.utilisateurs_ref\nWHERE\n  \"id_utilisateur\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id_utilisateur'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT DISTINCT option FROM public.garanties_ref where TYPE = {{Select1.selectedOptionValue}} and assureur = {{Select2.selectedOptionValue}} and formule = {{Select3.selectedOptionValue}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "name": "Select_public_utilisateurs_ref1",
-    "pageId": "Page2",
-    "runBehaviour": "MANUAL",
+    "name": "DistinctOption",
+    "pageId": "Nouvelle assurance",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6900e9bcee040c63f47206df_af1fa7ab-7bd9-4b54-aa05-5fec5a25c968",
-  "id": "Page2_DistinctOption",
+  "gitSyncId": "6900e9bcee040c63f47206df_482811a6-5d28-48a1-8dfd-607d8b1ba8de",
+  "id": "Nouvelle assurance_DistinctFormule",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT option FROM public.garanties_ref where TYPE = {{Select1.selectedOptionValue}} and assureur = {{Select2.selectedOptionValue}} and formule = {{Select3.selectedOptionValue}}",
+      "body": "SELECT DISTINCT formule FROM public.garanties_ref where TYPE = {{Select1.selectedOptionValue}} and assureur = {{Select2.selectedOptionValue}};;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "DistinctOption",
-    "pageId": "Page2",
+    "name": "DistinctFormule",
+    "pageId": "Nouvelle assurance",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
