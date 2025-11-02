@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 57,
+  "bottomRow": 63,
   "boxShadow": "none",
   "buttonColor": "#0d47a1",
   "buttonVariant": "PRIMARY",
@@ -34,7 +34,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 60,
   "text": "Pas de compte ? Inscrivez-vous",
-  "topRow": 53,
+  "topRow": 59,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "elk5jkfetm",
