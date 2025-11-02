@@ -66,6 +66,10 @@
     {
       "id": "Public.utilisateurs_ref",
       "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

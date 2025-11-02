@@ -1,7 +1,8 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#2196f3",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 56,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,42 +12,45 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "textColor"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "uh64nd8vy4",
-  "leftColumn": 10,
+  "key": "ygqtxlscbv",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 30,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 26,
+  "mobileBottomRow": 56,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 52,
   "needsErrorInfo": false,
-  "originalBottomRow": 45,
-  "originalTopRow": 38,
+  "originalBottomRow": 57,
+  "originalTopRow": 52,
   "overflow": "NONE",
-  "parentColumnSpace": 17.9375,
+  "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 59,
   "shouldTruncate": false,
-  "text": "Une recommendation pour éviter des assurances en doublons et pour vous signifiez ce qui pourrait être complémentaire",
-  "textAlign": "LEFT",
-  "textColor": "#231F20",
-  "topRow": 36,
+  "text": "Pas de compte ? Inscrivez-vous",
+  "textAlign": "CENTER",
+  "textColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "topRow": 52,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "9wv3ara643",
-  "widgetName": "Text4"
+  "widgetId": "vm2z7exk07",
+  "widgetName": "Text3"
 }
