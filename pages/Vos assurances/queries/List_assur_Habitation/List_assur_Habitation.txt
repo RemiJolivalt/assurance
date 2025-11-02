@@ -1,0 +1,20 @@
+SELECT 
+g.assureur, 
+g.formule,
+g.option, 
+gu.detail,
+gu.actif
+
+FROM 
+	public.garanties_utilisateur gu
+JOIN 
+    public.utilisateurs_ref u ON gu.id_utilisateur = u.id_utilisateur
+JOIN 
+    public.garanties_ref g ON gu.id_garantie = g.id_garantie
+
+Where 
+u.email = 'remi.jolivalt@gmail.com' AND
+g.type = 'Habitation' 
+
+ORDER BY  gu.id_garantie;
+
