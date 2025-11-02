@@ -1,0 +1,1 @@
+SELECT DISTINCT option FROM public.garanties_ref where TYPE = {{Select1.selectedOptionValue}} and assureur = {{Select2.selectedOptionValue}} and formule = {{Select3.selectedOptionValue}}
