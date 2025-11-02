@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 53,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "text": "Une recommendation pour éviter des assurances en doublons et pour vous signifiez ce qui pourrait être complémentaire",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 36,
+  "topRow": 46,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
