@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#f2eded",
+  "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "disableLink": false,
@@ -13,9 +13,14 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "Nunito Sans",
-  "fontSize": "1.25rem",
+  "fontFamily": "Poppins",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -40,8 +45,8 @@
   "rightColumn": 49,
   "shouldTruncate": false,
   "text": "VOS ASSURANCES",
-  "textAlign": "CENTER",
-  "textColor": "#1e3a8a",
+  "textAlign": "LEFT",
+  "textColor": "#2196f3",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
