@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 22,
+  "bottomRow": 24,
   "boxShadow": "none",
   "cachedTableData": {},
   "canFreezeColumn": false,
@@ -47,6 +47,7 @@
     "formule": 98,
     "option": 80
   },
+  "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
