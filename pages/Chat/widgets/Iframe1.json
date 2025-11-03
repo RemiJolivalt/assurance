@@ -1,14 +1,11 @@
 {
   "animateLoading": true,
   "borderOpacity": 100,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "borderWidth": 1,
+  "borderRadius": "0px",
+  "borderWidth": "0",
   "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "dynamicBindingPathList": [
-    {
-      "key": "borderRadius"
-    },
     {
       "key": "boxShadow"
     }
@@ -33,7 +30,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "source": "http://52.143.159.51:8080/chat.html?v=\" + Date.now()\n",
-  "topRow": 10,
+  "topRow": 4,
   "type": "IFRAME_WIDGET",
   "version": 1,
   "widgetId": "ta9o35q0a0",
