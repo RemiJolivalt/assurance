@@ -97,7 +97,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 7,
+  "rightColumn": 6,
   "sourceData": "[{\"label\" : \"blue\",\n\"value\": \"blue\"}]",
   "topRow": 0,
   "type": "MENU_BUTTON_WIDGET",

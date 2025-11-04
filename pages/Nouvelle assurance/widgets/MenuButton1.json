@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "configureMenuItems": {
     "config": {
@@ -38,7 +38,7 @@
   "isVisible": true,
   "key": "o60zrztcbd",
   "label": "",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "menuColor": "#2196f3",
   "menuItems": {
     "menuItem1": {
@@ -97,11 +97,11 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 6,
+  "rightColumn": 7,
   "sourceData": "[{\"label\" : \"blue\",\n\"value\": \"blue\"}]",
-  "topRow": 0,
+  "topRow": 1,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "umamqumxcg",
+  "widgetId": "7lxrho066y",
   "widgetName": "MenuButton1"
 }
