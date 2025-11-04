@@ -8,6 +8,9 @@
   "dynamicBindingPathList": [
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "source"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -29,7 +32,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "source": "http://52.143.159.51:8080/chat.html?v2",
+  "source": "http://52.143.159.51:8080/chat.html?username={{appsmith.user.name}}&email={{appsmith.user.email}}",
   "topRow": 4,
   "type": "IFRAME_WIDGET",
   "version": 1,
