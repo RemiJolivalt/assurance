@@ -32,10 +32,6 @@
   "icon": "diamond",
   "pages": [
     {
-      "id": "Chat_Old",
-      "isDefault": false
-    },
-    {
       "id": "Vos assurances",
       "isDefault": false
     },
@@ -48,19 +44,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
-      "id": "Public.garanties_utilisateur",
+      "id": "Visualisations",
       "isDefault": false
     },
     {
       "id": "Nouvelle assurance",
-      "isDefault": false
-    },
-    {
-      "id": "Public.utilisateurs_ref",
       "isDefault": false
     },
     {

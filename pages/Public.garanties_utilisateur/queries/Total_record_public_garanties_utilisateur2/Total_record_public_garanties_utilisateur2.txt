@@ -1,1 +1,0 @@
-SELECT COUNT(*) from public.garanties_utilisateur where id_garantie ilike '%{{Table3.searchText}}%';

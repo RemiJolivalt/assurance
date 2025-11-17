@@ -1,2 +1,0 @@
-DELETE FROM public."utilisateurs_ref"
-  WHERE "id_utilisateur" = {{data_table.triggeredRow.id_utilisateur}};

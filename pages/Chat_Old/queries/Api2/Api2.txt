@@ -1,5 +1,0 @@
-{
-  "sessionId": "85d2264b378e4ee887cf9b33da8da58a",
-  "action": "sendMessage",
-  "chatInput": "{{Input1.text}}"
-}

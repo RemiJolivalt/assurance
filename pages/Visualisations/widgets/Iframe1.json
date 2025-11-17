@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 39,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yh6k796bpl",
+  "leftColumn": 0,
+  "mobileBottomRow": 33,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "source": "http://52.143.159.51:3000/public/dashboard/9de53a25-d8c4-4eb0-99ef-e0fcef77708f",
+  "topRow": 6,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "lzwhwcz2zx",
+  "widgetName": "Iframe1"
+}

@@ -1,0 +1,107 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "configureMenuItems": {
+    "config": {
+      "iconName": "add",
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "menu",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "o60zrztcbd",
+  "label": "",
+  "leftColumn": 0,
+  "menuColor": "#2196f3",
+  "menuItems": {
+    "menuItem1": {
+      "iconColor": "#2196f3",
+      "iconName": "home",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "",
+      "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "iconColor": "#2196f3",
+      "iconName": "folder-open",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "",
+      "onClick": "{{navigateTo('Vos assurances', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "iconColor": "#2196f3",
+      "iconName": "chat",
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "",
+      "onClick": "{{navigateTo('Chat', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItemfdjfxo4iz0": {
+      "iconColor": "#2196f3",
+      "iconName": "timeline-line-chart",
+      "id": "menuItemfdjfxo4iz0",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "",
+      "widgetId": "x5l32s02xq"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "SECONDARY",
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 6,
+  "sourceData": "[{\"label\" : \"blue\",\n\"value\": \"blue\"}]",
+  "topRow": 0,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4lsr0h3ug4",
+  "widgetName": "MenuButton1"
+}

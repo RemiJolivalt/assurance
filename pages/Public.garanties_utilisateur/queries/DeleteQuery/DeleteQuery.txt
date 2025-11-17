@@ -1,2 +1,0 @@
-DELETE FROM public."garanties_utilisateur"
-  WHERE "id_garantie" = {{data_table.triggeredRow.id_garantie}};

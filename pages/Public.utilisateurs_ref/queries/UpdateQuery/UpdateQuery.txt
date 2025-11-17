@@ -1,6 +1,0 @@
-UPDATE public."utilisateurs_ref" SET
-		"id_utilisateur" = '{{update_form.fieldState.id_utilisateur.isVisible ? update_form.formData.id_utilisateur : update_form.sourceData.id_utilisateur}}',
-		"nom" = '{{update_form.fieldState.nom.isVisible ? update_form.formData.nom : update_form.sourceData.nom}}',
-    "prenom" = '{{update_form.fieldState.prenom.isVisible ? update_form.formData.prenom : update_form.sourceData.prenom}}',
-		"email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}'
-WHERE "id_utilisateur" = {{data_table.selectedRow.id_utilisateur}};
