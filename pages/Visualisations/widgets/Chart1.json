@@ -3,11 +3,11 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 66,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "e53yu0dxrg": {
-      "data": "[\n  {\n    \"x\": \"Product1\",\n    \"y\": 20000\n  },\n  {\n    \"x\": \"Product2\",\n    \"y\": 22000\n  },\n  {\n    \"x\": \"Product3\",\n    \"y\": 32000\n  }\n]",
+      "data": "{{ getGaranties.data.payload.analytics.series.plafondParGarantie }}",
       "seriesName": "Assurances"
     }
   },
@@ -76,6 +76,9 @@
     },
     {
       "key": "fontFamily"
+    },
+    {
+      "key": "chartData.e53yu0dxrg.data"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -100,7 +103,7 @@
   "rightColumn": 60,
   "setAdaptiveYMin": true,
   "showDataPointLabel": false,
-  "topRow": 27,
+  "topRow": 43,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "hyhaqladh6",
