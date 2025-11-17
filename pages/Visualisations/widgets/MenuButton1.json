@@ -73,16 +73,6 @@
       "label": "",
       "onClick": "{{navigateTo('Chat', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
-    },
-    "menuItemfdjfxo4iz0": {
-      "iconColor": "#2196f3",
-      "iconName": "timeline-line-chart",
-      "id": "menuItemfdjfxo4iz0",
-      "index": 3,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "",
-      "widgetId": "x5l32s02xq"
     }
   },
   "menuItemsSource": "STATIC",

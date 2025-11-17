@@ -28,6 +28,9 @@
     },
     {
       "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItemfdjfxo4iz0.onClick"
     }
   ],
   "iconAlign": "left",
@@ -82,6 +85,7 @@
       "isDisabled": false,
       "isVisible": true,
       "label": "",
+      "onClick": "{{navigateTo('Visualisations', {}, 'SAME_WINDOW');}}",
       "widgetId": "x5l32s02xq"
     }
   },

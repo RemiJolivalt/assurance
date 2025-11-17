@@ -27,7 +27,7 @@
       "key": "menuItems.menuItem3.onClick"
     },
     {
-      "key": "menuItems.menuItem2.onClick"
+      "key": "menuItems.menuItemfdjfxo4iz0.onClick"
     }
   ],
   "iconAlign": "left",
@@ -52,22 +52,11 @@
       "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
     },
-    "menuItem2": {
-      "iconColor": "#2196f3",
-      "iconName": "folder-open",
-      "id": "menuItem2",
-      "index": 1,
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "",
-      "onClick": "{{navigateTo('Vos assurances', {}, 'SAME_WINDOW');}}",
-      "widgetId": ""
-    },
     "menuItem3": {
       "iconColor": "#2196f3",
       "iconName": "chat",
       "id": "menuItem3",
-      "index": 2,
+      "index": 1,
       "isDisabled": false,
       "isVisible": true,
       "label": "",
@@ -78,10 +67,11 @@
       "iconColor": "#2196f3",
       "iconName": "timeline-line-chart",
       "id": "menuItemfdjfxo4iz0",
-      "index": 3,
+      "index": 2,
       "isDisabled": false,
       "isVisible": true,
       "label": "",
+      "onClick": "{{navigateTo('Visualisations', {}, 'SAME_WINDOW');}}",
       "widgetId": "x5l32s02xq"
     }
   },

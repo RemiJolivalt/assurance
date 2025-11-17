@@ -32,7 +32,7 @@
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Chat', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 41,
-  "originalTopRow": 36,
+  "originalTopRow": 35,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

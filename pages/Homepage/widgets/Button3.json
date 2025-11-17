@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "grouped-bar-chart",
   "isDefaultClickDisabled": true,
@@ -26,8 +30,9 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "originalBottomRow": 47,
-  "originalTopRow": 43,
+  "onClick": "{{navigateTo('Visualisations', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 48,
+  "originalTopRow": 42,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

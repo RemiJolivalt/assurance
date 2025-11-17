@@ -32,7 +32,7 @@
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Vos assurances', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 34,
-  "originalTopRow": 29,
+  "originalTopRow": 28,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
